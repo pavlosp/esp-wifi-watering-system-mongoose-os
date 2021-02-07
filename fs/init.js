@@ -9,7 +9,7 @@ load('api_esp8266.js');
 load('api_math.js');
 load('api_dht.js');
 
-let led_pin = 2;
+let led_pin = 15;
 GPIO.setup_output(led_pin, 0);
 
 let adc_sensor_pin = 0;
